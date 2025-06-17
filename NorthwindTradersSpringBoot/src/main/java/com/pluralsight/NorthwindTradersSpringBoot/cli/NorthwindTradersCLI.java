@@ -16,6 +16,6 @@ public class NorthwindTradersCLI implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        menuHandler.showMainMenu();
+//        menuHandler.showMainMenu();
     }
 }

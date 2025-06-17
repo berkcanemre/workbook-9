@@ -1,3 +1,4 @@
+
 package com.pluralsight.NorthwindTradersSpringBoot.model;
 
 public class Customer {
@@ -16,6 +17,13 @@ public class Customer {
         this.country = country;
         this.phone = phone;
         this.fax = fax;
+    }
+
+    public Customer(String customerId, String companyName, String contactName, String contactTitle) {
+        this.customerId = customerId;
+        this.companyName = companyName;
+        this.contactName = contactName;
+        this.contactTitle = contactTitle;
     }
 
     @Override
